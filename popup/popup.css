@@ -1,1 +1,50 @@
-
+/* General styles for the popup */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f3ff; /* Very light purple background */
+    color: #333;
+    border-radius: 15px; /* Rounded corners for the popup */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for better visibility */
+  }
+  
+  /* Header styles */
+  h2 {
+    border-bottom: 2px solid #d1c4e9; /* Light purple border */
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    color: #5e35b1; /* Medium purple text */
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 10px; /* Rounded border */
+  }
+  
+  /* Button styles */
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #d1c4e9; /* Light purple */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+  }
+  
+  /* Button hover effects */
+  button:hover {
+    background-color: #9575cd; /* Darker purple */
+    transform: scale(1.05);
+  }
+  
+  /* Image preview styles */
+  #preview {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
