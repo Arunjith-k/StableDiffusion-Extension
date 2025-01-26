@@ -1,39 +1,27 @@
-Stable Diffusion Chrome Extension
+# Stable Diffusion Chrome Extension
 
-Overview
-
+## Overview
 This Chrome extension allows users to easily manage and edit images using Stable Diffusion. With a single click, users can redirect to Stable Diffusion's web interface for quick editing and enhancements.
 
-Features
+## Features
+- Modern and futuristic UI
+- One-click redirection to Stable Diffusion
+- User-friendly design
 
-Modern and futuristic UI
+## Installation
+1. Download or clone this repository.
+2. Open Chrome and go to `chrome://extensions/`.
+3. Enable Developer Mode (toggle in the top-right corner).
+4. Click on "Load unpacked" and select the extension folder.
+5. The extension will now be available in your browser.
 
-One-click redirection to Stable Diffusion
+## Usage
+1. Click on the extension icon in the Chrome toolbar.
+2. In the popup window, click the **"Open Stable Diffusion"** button.
+3. A new tab will open, taking you to the Stable Diffusion editor.
 
-User-friendly design
-
-Installation
-
-Download or clone this repository.
-
-Open Chrome and go to chrome://extensions/.
-
-Enable Developer Mode (toggle in the top-right corner).
-
-Click on "Load unpacked" and select the extension folder.
-
-The extension will now be available in your browser.
-
-Usage
-
-Click on the extension icon in the Chrome toolbar.
-
-In the popup window, click the "Open Stable Diffusion" button.
-
-A new tab will open, taking you to the Stable Diffusion editor.
-
-Files Structure
-
+## Files Structure
+```
 /STABLEDIFFUSION-EXTENSION/
 │── POPUP/
 │   │── pen.png
@@ -43,9 +31,8 @@ Files Structure
 │── manifest.json
 │── background.json
 │── content.js
+```
 
-Contributing
-
+## Contributing
 Feel free to fork the repository and submit pull requests for improvements.
-
 
