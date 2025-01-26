@@ -15,7 +15,7 @@ document.getElementById('openEditor').addEventListener('click', () => {
       "width": 512,
       "height": 512
     };
-    fetch('http://192.168.172.59:7860/sdapi/v1/txt2img', {
+    fetch('https://342e225ea9bda6d875.gradio.live/sdapi/v1/txt2img', {
       method: 'POST', 
       headers: {
         'Content-Type': 'application/json'
@@ -52,4 +52,5 @@ document.getElementById('openEditor').addEventListener('click', () => {
        
         console.error('Error:', error);
       });
+});
 });
