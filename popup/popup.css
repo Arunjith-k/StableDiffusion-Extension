@@ -48,3 +48,23 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
+  /* Pen button styles */
+  #pen-button {
+    display: block;
+    margin: 10px auto 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  #pen-button img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s;
+  }
+  
+  #pen-button:hover img {
+    transform: scale(1.1);
+  }
+  
