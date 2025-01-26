@@ -67,4 +67,28 @@ body {
   #pen-button:hover img {
     transform: scale(1.1);
   }
+
+  /* Text field styles */
+/* Text field styles */
+#textInput {
+  width: 80%; /* Reduce width to fit better */
+  padding: 8px 12px; /* Smaller padding */
+  margin: 10px auto; /* Center the input */
+  border: 2px solid #d1c4e9; /* Light purple border */
+  border-radius: 5px;
+  font-size: 0.9rem; /* Smaller text size */
+  color: #333;
+  background-color: #fff; /* White background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Focus effect when the text field is clicked */
+#textInput:focus {
+  border-color: #9575cd; /* Darker purple */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
+  outline: none; /* Remove default outline */
+}
+
+
   
