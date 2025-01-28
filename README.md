@@ -8,6 +8,8 @@ This Chrome extension allows users to easily manage and edit images using Stable
 - One-click redirection to Stable Diffusion
 - User-friendly design
 - Has Img->Img and Text->Image functions
+- Uses DreamShaper Module
+- The Img->Img function uses masking (with in-built pen tool) to modify the given image as per the prompt.
 
 ## Installation
 1. Download or clone this repository.
