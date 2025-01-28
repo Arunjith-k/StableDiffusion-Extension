@@ -18,6 +18,15 @@ h2 {
   font-size: 1.5rem;
   text-align: center;
   border-radius: 10px; /* Rounded border */
+
+  /* Useless attributes */
+  outline: none;
+  transform: none;
+  background-position: 0 0;
+  user-select: auto;
+  box-shadow: none;
+  cursor: auto;
+  overflow: visible;
 }
 
 /* Button styles */
