@@ -1,25 +1,20 @@
 {
-  "manifest_version": 3, // Specifies the version of the manifest file format being used (must be 3 for modern extensions).
-  "name": "Stable Diffusion Image Editor", // The name of the extension as it appears in the browser.
-  "version": "1.0", // The version number of the extension.
-  "description": "Select and edit images using Stable Diffusion.", // A brief description of the extension's purpose.
-  "permissions": [ // List of permissions required by the extension.
-    "contextMenus", // Allows the extension to add items to the browser's context menu.
-    "activeTab", // Grants access to the currently active tab.
-    "storage", // Allows the extension to store data locally.
-    "scripting" // Enables the extension to execute scripts in the context of web pages.
-  ],
-  "host_permissions": ["<all_urls>"], // Specifies the URLs the extension can interact with (here, all URLs).
+  "manifest_version": 3,
+  "name": "Stable Diffusion Image Editor",
+  "version": "1.0",
+  "description": "Select and edit images using Stable Diffusion.",
+  "permissions": ["contextMenus", "activeTab", "storage", "scripting"],
+  "host_permissions": ["<all_urls>"],
   "background": {
-    "service_worker": "background.js" // The JavaScript file that runs in the background and handles extension logic.
+    "service_worker": "background.js"
   },
   "action": {
-    "default_popup": "popup/popup.html" // Specifies the popup HTML file shown when the extension icon is clicked.
+    "default_popup": "popup/popup.html"
   },
   "content_scripts": [
     {
-      "matches": ["<all_urls>"], // Indicates the URLs where the content script should be injected.
-      "js": ["content.js"] // The content script file to inject into matching web pages.
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
     }
   ]
 }
