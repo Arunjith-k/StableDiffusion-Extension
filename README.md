@@ -11,6 +11,14 @@ This Chrome extension allows users to easily manage and edit images using Stable
 - Uses DreamShaper Module
 - The Img->Img function uses masking (with in-built pen tool) to modify the given image as per the prompt.
 
+## Pre-requisites
+- Python 3.10.6
+- Stable Diffusion (Installed)
+- Enable .bat file api, listen and share by adding the command below in the webui-user file:
+  [set COMMANDLINE_ARGS= --listen --api --share]
+  ![image](https://github.com/user-attachments/assets/e81ff077-8eff-4d88-9907-badbd3ba6f71)
+
+
 ## Installation
 1. Download or clone this repository.
 2. Open Chrome and go to `chrome://extensions/`.
