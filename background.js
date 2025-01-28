@@ -1,3 +1,4 @@
+console.log("Hello World")
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
     id: "editImage",
