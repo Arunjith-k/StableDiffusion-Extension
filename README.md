@@ -7,6 +7,7 @@ This Chrome extension allows users to easily manage and edit images using Stable
 - Modern and futuristic UI
 - One-click redirection to Stable Diffusion
 - User-friendly design
+- Has Img->Img and Text->Image functions
 
 ## Installation
 1. Download or clone this repository.
