@@ -28,9 +28,12 @@ This Chrome extension allows users to easily manage and edit images using Stable
 │   │── popup.css
 │   │── popup.html
 │   │── popup.js
+|── README.md
 │── manifest.json
 │── background.json
 │── content.js
+|── logo.png
+
 ```
 
 ## Contributing
